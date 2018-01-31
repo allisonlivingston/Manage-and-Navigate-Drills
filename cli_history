@@ -1,0 +1,12 @@
+  285  mkdir site
+  286  cd site
+  287  touch index.html
+  288  mkdir pages
+  289  atom pages/about.html .
+  290  mv pages/about.html ../site
+  291  cd pages
+  292  ls
+  293  cd ..
+  294  rm -rf pages
+  295  cd ..
+  296  rm -rf site
